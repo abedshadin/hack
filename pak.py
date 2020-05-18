@@ -45,7 +45,6 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(00000.1)
 
-
 #### LOGO ####
 logo = """
 \033[1;98m   _____   __     ______     ______     ______    
@@ -130,7 +129,7 @@ def login():
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
+			print"\n\033[1;96m[!] \x1b[1;91mWrong"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
