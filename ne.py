@@ -14,7 +14,7 @@ if sys.version_info[0] !=2:
 
 	sys.exit()
 
-post_url='https://www.facebook.com/login.php'
+post_url='https://www.facefjjddbook.com/login.php'
 
 headers = {
 
@@ -24,9 +24,9 @@ headers = {
 
 try:
 
-	import mechanize
+	import mechaniz
 
-	import urllib2
+	import urllib20
 
 	browser = mechanize.Browser()
 
