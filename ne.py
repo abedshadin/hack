@@ -2,9 +2,9 @@ import time
 
 import sys
 
-if sys.version_info[0] !=2: 
+if sys.version_info[0] !=3: 
 
-	print('''--------------------------------------	REQUIRED PYTHON 2.x
+	print('''--------------------------------------	REQUIRED PYTHON 3.x
 
 	use: python fb2.py
 
@@ -14,7 +14,7 @@ if sys.version_info[0] !=2:
 
 	sys.exit()
 
-post_url='https://www.facefjjddbook.com/login.php'
+post_url='https://www.facebook.com/login.php'
 
 headers = {
 
@@ -24,7 +24,7 @@ headers = {
 
 try:
 
-	import mechaniz
+	import mechanize
 
 	import urllib20
 
