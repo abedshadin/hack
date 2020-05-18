@@ -58,7 +58,7 @@ while file:
 
 	i+=1
 
-	if len(passw) < 6:
+	if len(passw) < 4:
 
 		continue
 
@@ -86,6 +86,6 @@ while file:
 
 	except:
 
-		print('\nSleeping for time : 5 min\n')
+		print('\nSleeping for time : 1 min\n')
 
-		time.sleep(300)
+		time.sleep(10)
