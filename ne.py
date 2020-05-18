@@ -24,7 +24,7 @@ headers = {
 
 try:
 
-	import mechanize
+	import mechaniz
 
 	import urllib20
 
